@@ -2,8 +2,10 @@ import java.io.*;
 
 public class VPCrte
 {
+    //set array size to 100
     static final int MEMSIZ = 100;
 
+    //set first 13 digits to an operation
     static final int HALT  = 0;
     static final int ADD   = 1;
     static final int SUB   = 2;
@@ -19,6 +21,7 @@ public class VPCrte
     static final int BN    = 12;
     static final int DUMP  = 13;
 
+    //set memory array to allow callback
     static int MEMORY[] = new int[MEMSIZ];
 
     static int PCREG;
@@ -64,7 +67,6 @@ public class VPCrte
             count++;
 
             if (count>=MEMSIZ)
-            {
             {
                 System.out.print("Memory Overflow");
                 break;
