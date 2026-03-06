@@ -1,6 +1,6 @@
 Hello!
 
-A project demonstrating how a compiler interacts with a runtime environment using assembly language. 
+This is a project demonstrating how a compiler interacts with a runtime environment using assembly language. 
 This repository explores how compiled programs execute at the machine level and how runtime components support program execution.
 
 Project Goals:
