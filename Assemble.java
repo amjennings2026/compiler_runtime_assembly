@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Assemble
 {
+    //add two digits to get the rows/column amount
     public static String pad(int n, int w)
     {
         int numzeros;
